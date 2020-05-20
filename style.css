@@ -1,3 +1,8 @@
 #bloc-gauche{
     background-color: rgb(255, 198, 54);
 }
+.section-gauche{
+    background-color: black;
+    opacity: 0.6;
+    color: rgb(255, 198, 54);
+}
