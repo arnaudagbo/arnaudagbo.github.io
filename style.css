@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+    margin: auto;
+    border: 3px solid black;
+    width: 80%;
 }
 
 #bloc-gauche{
@@ -59,4 +61,45 @@ body {
 #trait {
     max-width: 80px;
     border-bottom: 2px solid #FDD835;
+}
+
+#bloc-droite h1{
+    margin-bottom: 0;
+}
+
+#bloc-droite h2{
+    margin-top: 0;
+}
+
+#titre{
+    margin-bottom: 120px;
+}
+
+
+.bloc {
+    display: flex;
+    padding: 20px;
+}
+
+.dates {
+    min-width: 250px;
+    display: flex;
+}
+
+.bloc-texte{
+    width: 35%;
+}
+
+.bloc1{
+    flex: 1;
+}
+.bloc2{
+    flex: 3;
+}
+.bloc3{
+    flex: 20;
+}
+.bloc-bas{
+    display: flex;
+    justify-content: space-around;
 }
