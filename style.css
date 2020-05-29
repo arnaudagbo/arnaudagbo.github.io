@@ -92,6 +92,7 @@ body {
 
 .bloc1{
     flex: 1;
+    color: #FDD835;
 }
 .bloc2{
     flex: 3;
@@ -102,4 +103,17 @@ body {
 .bloc-bas{
     display: flex;
     justify-content: space-around;
+}
+
+.resume{
+    width: 80%;
+}
+
+.icone-color{
+    margin-right: 30px;
+    color: #FDD835;
+}
+
+.partie{
+    border-bottom: solid 2px #FDD835;
 }
