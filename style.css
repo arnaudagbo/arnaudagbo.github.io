@@ -7,6 +7,12 @@ body {
 #bloc-gauche{
     background-color: #FDD835;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#about{
+    flex-grow: 1;
 }
 
 #bloc-droite{
@@ -48,7 +54,7 @@ body {
     color: black;
 }
 
-#loisirs {
+#logos {
     display: flex;
     justify-content: space-around;
     margin: 10px 20px;
