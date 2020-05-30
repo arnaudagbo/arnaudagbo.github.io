@@ -186,6 +186,9 @@ body {
     .bloc-texte{
         width: 100%;
     }
+    .bloc-bas{
+        flex-direction: column;
+    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
