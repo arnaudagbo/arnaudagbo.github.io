@@ -142,11 +142,23 @@ body {
     #bloc-gauche{
         background-color: red;
     }
+    .bloc{
+        flex-direction: column;
+    }
+    .bloc1{
+        display: none;
+    }
+    .resume{
+        width: 100%;
+    }
+    .bloc-texte{
+        width: 100%;
+    }
 
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
     #conteneur{
         flex-direction: column-reverse;
     }
@@ -158,6 +170,18 @@ body {
     }
     #bloc-gauche{
         background-color: darkgrey;
+    }
+    .bloc1{
+        display: none;
+    }
+    .bloc{
+        flex-direction: column;
+    }
+    .resume{
+        width: 100%;
+    }
+    .bloc-texte{
+        width: 100%;
     }
 } 
 
@@ -174,9 +198,19 @@ body {
     }
     .bloc{
         padding: 0px;
+        flex-direction: column;
     }
     #conteneur{
         flex-direction: column-reverse;
+    }
+    .bloc1{
+        display: none;
+    }
+    .resume{
+        width: 100%;
+    }
+    .bloc-texte{
+        width: 100%;
     }
 }
 
