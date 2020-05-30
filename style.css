@@ -157,6 +157,9 @@ body {
     body{
         width: 100%;
     }
+    .bloc-bas{
+        flex-direction: column;
+    }
 
 } 
 
