@@ -6,19 +6,15 @@ body{
     width: 90%;
     font-family: 'Roboto', sans-serif;
 }
-
 #bloc-gauche{
     background-color: #FDD835;
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-
 .about{
     flex-grow: 1;
 }
-
-
 #bloc-droite{
     flex: 4;
     margin: 50px;
@@ -36,31 +32,26 @@ body{
 #conteneur{
     display: flex;
 }
-
 #bloc-photo{
     display: flex;
     justify-content: center;
     margin: 30px;
 }
-
 #photoCV{
     max-height: 200px;
     max-width: 200px;
     border-radius: 50%;
     box-shadow: 1px 1px 6px #555;
 }
-
 #bloc-gauche p{
     margin-left: 50px;
     margin-right: 50px;
 }
-
 .fas{
     border: 2px solid;
     border-radius: 50%;
     color: black;
 }
-
 .logos{
     display: flex;
     justify-content: space-around;
@@ -71,50 +62,39 @@ body{
     border-radius: 50%;
     padding: 22px;
 }
-
 #prenom {
     color: #FDD835;
 }
-
 #trait {
     max-width: 80px;
     border-bottom: 2px solid #FDD835;
 }
-
 #bloc-droite h1{
     margin-bottom: 0;
 }
-
 #bloc-droite h2{
     margin-top: 0;
 }
-
 .resume h4{
     color: #4A4A4A;
     margin: 0;
 }
-
 .titre{
     margin-top: 0.5rem;
     margin-bottom: 120px;
     color: #4A4A4A;
 }
-
-
 .bloc {
     display: flex;
     padding: 20px;
 }
-
 .dates {
     min-width: 250px;
     display: flex;
 }
-
 .bloc-texte{
     width: 35%;
 }
-
 .bloc1{
     flex: 1;
     color: #FDD835;
@@ -129,20 +109,16 @@ body{
     display: flex;
     justify-content: space-around;
 }
-
 .resume{
     width: 95%;
 }
-
 .icone-color{
     margin-right: 30px;
     color: #FDD835;
 }
-
 .partie{
     border-bottom: solid 2px #FDD835;
 }
-
 .loisirs{
     margin-bottom: 30px;
 }
@@ -152,7 +128,6 @@ body{
 .contact h3{
     margin-bottom: 0;
 }
-
 .contact p{
     font-size: 1rem;
 }
@@ -162,7 +137,6 @@ body{
 .contactgras{
     font-weight: 500;
 }
-
 
 /* responsive */
 @media only screen and (max-width: 600px) {
@@ -174,11 +148,6 @@ body{
     }
     .bloc{
         padding: 0px;
-    }
-    #bloc-gauche{
-        background-color: red;
-    }
-    .bloc{
         flex-direction: column;
     }
     .bloc1{
@@ -220,9 +189,6 @@ body{
     .bloc{
         padding: 0px;
     }
-    #bloc-gauche{
-        background-color: darkgrey;
-    }
     .bloc1{
         display: none;
     }
@@ -242,9 +208,6 @@ body{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px)  {
-    #bloc-gauche{
-        background-color: chartreuse;
-    }
     .loisirs, .about {
         display: none;
     }
@@ -273,6 +236,5 @@ body{
 @media only screen and (min-width: 992px)  {
     #bloc-gauche{
         flex: 2;
-        background-color: blue;
     }
 }
