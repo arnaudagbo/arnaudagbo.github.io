@@ -3,7 +3,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    width: 80%;
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #bloc-gauche{
@@ -120,7 +121,7 @@ body{
 }
 
 .resume{
-    width: 80%;
+    width: 95%;
 }
 
 .icone-color{
