@@ -107,7 +107,12 @@ body{
 }
 .bloc-bas{
     display: flex;
-    justify-content: space-around;
+}
+.gauche{
+    flex: 1.2;
+}
+.droite{
+    flex: 1;
 }
 .resume{
     width: 95%;
