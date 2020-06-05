@@ -209,6 +209,10 @@ body{
     .bloc-bas{
         flex-direction: column;
     }
+    body{
+        width: 100%;
+        margin: 0;
+    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -234,6 +238,10 @@ body{
     }
     .bloc-texte{
         width: 100%;
+    }
+    body{
+        width: 100%;
+        margin: 0;
     }
 }
 
